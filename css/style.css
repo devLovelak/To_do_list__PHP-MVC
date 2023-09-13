@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+html{ 
+    background: linear-gradient(to top, #654ea3, #eaafc8) ;
+    height : 100vh;
+}
+header{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+main{
+    text-align: center;
+    padding: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+input[type="submit"]{
+    border: transparent;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 20px;
+}
+input[type="text"]{
+    height: 35px;
+    width: 270px;
+}
+.result{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.list-result{
+    margin-top: 20px;
+}
